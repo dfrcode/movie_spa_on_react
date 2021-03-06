@@ -50,3 +50,9 @@ nav {
   width: 70%;
   height: 50%;
 }
+
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 2.5px;
+}
