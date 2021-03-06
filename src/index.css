@@ -17,6 +17,36 @@ nav {
 
 .content {
   width: 100%;
-  padding: 10px 0;
+  padding: 10px 30px;
   min-height: calc(100vh - 70px - 64px);
+}
+
+.movies {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.movie {
+  width: 250px;
+  height: 500px;
+}
+
+.card-image {
+  height: 350px;
+}
+
+.na {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 350px;
+  background-color: #dddddd;
+}
+
+.card-title {
+  width: 70%;
+  height: 50%;
 }
