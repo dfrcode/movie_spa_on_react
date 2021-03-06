@@ -1,3 +1,3 @@
-export { Header } from './header';
-export { Main } from './main';
-export { Footer } from './footer';
+export { Header } from './layouts/header';
+export { Main } from './layouts/main';
+export { Footer } from './layouts/footer';
