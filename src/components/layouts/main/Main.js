@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import { Movies } from "../../listmovies/Movies";
+import { Movies } from "../../listmovies";
+import { Preloader } from '../../preloader';
 
 class Main extends Component {
   constructor(props) {
@@ -22,7 +23,11 @@ class Main extends Component {
 
     return (
       <div className="content container">
-        {movies.length ? <Movies movies={movies} /> : <h3>Not results...</h3>}
+        {movies.length ? (
+          <Movies movies={movies} />
+        ) : (
+          <Preloader/>
+        )}
       </div>
     );
   }
